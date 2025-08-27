@@ -3,11 +3,12 @@
 # React ToDo List
 
 ## Description
-A modern and interactive Todo List application built with React and Tailwind CSS. Add, delete, and mark tasks as complete.
+A modern and interactive Todo List application built with React and Tailwind CSS. Add, delete, and mark tasks as complete with a clean and responsive interface.
 
 ## Features
 - Add, delete, and mark tasks as completed  
-- Styled using Tailwind CSS for fast and clean UI development  
+- Styled using Tailwind CSS for fast and clean UI development
+- Responsive design (desktop & mobile)   
 
 ## Tech Stack
 - React  
