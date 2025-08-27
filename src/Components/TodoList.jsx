@@ -73,7 +73,7 @@ export default function TodoList() {
   }
 
   const buttonClass = (type) =>
-    `p-2 rounded-lg text-white duration-300 ${
+    `px-2 py-1 sm:p-2 md:p-3 rounded-lg text-white duration-300 text-lg sm:text-lg md:text-base ${
       typeOfShownTodos === type
         ? "bg-rose-900"
         : "bg-rose-700 hover:bg-rose-900"
@@ -99,12 +99,14 @@ export default function TodoList() {
   return (
     <>
       {/* Header */}
-      <div className="w-3/12 h-fit bg-white rounded-xl  max-h-[70vh] overflow-auto">
-        <h1 className="p-5 text-center text-4xl">My Tasks</h1>
+      <div className="w-9/12 sm:w-10/12 md:w-8/12 lg:w-6/12 xl:w-4/12 max-w-2xl mx-4 h-fit bg-white rounded-xl max-h-[80vh] sm:max-h-[75vh] md:max-h-[70vh] overflow-auto">
+        <h1 className="p-4 sm:p-5 text-center text-2xl sm:text-3xl md:text-4xl font-semibold">
+          My Tasks
+        </h1>
         <hr />
         {/* == Header ==*/}
         {/* Sections Btns */}
-        <div className="flex gap-3 justify-center mt-4">
+        <div className="flex gap-2 sm:gap-3 justify-center mt-4 px-2 sm:px-0">
           <button
             className={buttonClass("all")}
             onClick={() => {
@@ -133,7 +135,7 @@ export default function TodoList() {
         {/*== Sections Btns ==*/}
         {/* Taks Cards */}
 
-        <div className="flex justify-center items-center flex-col">
+        <div className="flex justify-center items-center flex-col px-2 sm:px-0">
           {todoMap}
         </div>
 
