@@ -31,7 +31,7 @@ export default function TaskCard({
     if (popUp) {
       setInput({ title: todo.title, description: todo.description });
     }
-  }, [popUp]);
+  }, [popUp, todo.title, todo.description]);
 
   return (
     <>
