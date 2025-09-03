@@ -13,7 +13,8 @@ Try the live app here: [React ToDo List on Netlify](https://reacttodoappmalek.ne
 - Add, delete, and mark tasks as completed  
 - Styled with Tailwind CSS for a fast and clean UI  
 - Fully responsive design for both desktop and mobile  
-- Real-time task management for efficient organization  
+- Real-time task management for efficient organization
+- Tasks are saved in **Local Storage** for persistence  
 
 ---
 
