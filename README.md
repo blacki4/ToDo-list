@@ -41,7 +41,7 @@ npm install
 npm start
 ```
 ## Usage 💡
--1.Type your task in the input box
--2.Press "Add" or hit Enter to add the task
--3.Click the checkbox to mark as completed
--4.Use the delete button to remove a task
+- Type your task in the input box
+- Press "Add" or hit Enter to add the task
+- Click the checkbox to mark as completed
+- Use the delete button to remove a task
